@@ -4,8 +4,21 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  darkMode: "class",
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        primary: "#17153B",
+        secondary: "#ed8900"
+      },
+      container:{
+        center:true,
+        padding: {
+          DEFAULT: "1rem",
+          sm: "3rem",
+        }
+      }
+    },
   },
   plugins: [],
 }
